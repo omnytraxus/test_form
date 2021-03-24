@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="styles/styles.css"/>
+        <title>Тестовое задание</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="form">
+                <form id="form" class="form__body">
+                    <label class="form__title">Задать вопрос</label>
+                    <div class="form__item">
+                        <input id="name" type="text" name="name" class="form__name _req _name"
+                        placeholder="Фамилия Имя Отчество *"
+                        title="Разрешено использовать только пробелы и русские буквы">
+                    </div>
+                    <div class="form__item">
+                        <input id="phone" type="text" name="phone" class="form__phone _req _phone"
+                        placeholder="Телефон *"
+                        title="Разрешено использовать только цифры, + и -">
+                    </div>
+                    <div class="form__item">
+                        <input id="email" type="text" name="email" class="form__mail _req _email"
+                        placeholder="Email">
+                    </div>
+                    <div class="form__item">
+                        <button type="submit" id="sendForm" class="form__button">ОТПРАВИТЬ ЗАПРОС</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
